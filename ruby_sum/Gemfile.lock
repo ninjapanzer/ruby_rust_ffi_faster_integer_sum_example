@@ -1,0 +1,19 @@
+PATH
+  remote: ../perf_tests_rust/test_lib/gem
+  specs:
+    faster_sum (0.1.0)
+      ffi (~> 1.15)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.15.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  faster_sum!
+
+BUNDLED WITH
+   2.4.4
